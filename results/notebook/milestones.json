@@ -1,0 +1,17 @@
+{
+  "source": "outputs of notebooks/ucu-ai-hw2-video-object-detection.ipynb (Parts 2-5); full validation = all 2,846 frames with original COCO annotations",
+  "full_validation_in_order": [
+    {"run": "Faster R-CNN", "stage": "pilot: 271 frames, 1 epoch", "mAP": 0.0811, "AP50": 0.1792, "AP_small": 0.0490},
+    {"run": "YOLO26n", "stage": "pilot: 271 frames, 1 epoch", "mAP": 0.0466, "AP50": 0.0970, "AP_small": 0.0086},
+    {"run": "Faster R-CNN", "stage": "4,868 frames, step 1,755", "mAP": 0.1142, "AP50": 0.251, "AP_small": 0.057},
+    {"run": "Faster R-CNN", "stage": "4,868 frames, step 3,755", "mAP": 0.1238, "AP50": 0.2654, "AP_small": 0.0560},
+    {"run": "RetinaNet", "stage": "4,868 frames, step 1,000", "mAP": 0.1026, "AP50": 0.1948, "AP_small": 0.0413},
+    {"run": "YOLO26n", "stage": "4,868 frames, epoch 4", "mAP": 0.1291, "AP50": 0.2506, "AP_small": 0.0406},
+    {"run": "RT-DETR-L", "stage": "4,868 frames, epoch 2", "mAP": 0.2244, "AP50": 0.4246, "AP_small": 0.0856}
+  ],
+  "quick_validation_219_frames": {
+    "note": "same 219 held-out frames for both; a cheaper check than full validation, so not comparable with the table above",
+    "Faster R-CNN": [{"step": 1755, "mAP": 0.1308}, {"step": 2755, "mAP": 0.1291}],
+    "RetinaNet": [{"step": 1000, "mAP": 0.1169}, {"step": 2000, "mAP": 0.0658}, {"step": 3000, "mAP": 0.0805}]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "ens-3models",
+  "family": "ensemble",
+  "checkpoint": "rtdetr-l-e6_predictions + nb-rtdetr_predictions + frcnn-base_predictions",
+  "device": "mps",
+  "frames": 2846,
+  "detections": 1423000,
+  "ms_per_frame": 206.62,
+  "settings": {
+    "iou": 0.55
+  },
+  "AP": 0.24919104469571807,
+  "AP50": 0.47985814077530087,
+  "AP75": 0.22578506202130091,
+  "AP_small": 0.10600434988359714,
+  "AP_medium": 0.2070916406020289,
+  "AP_large": 0.4433557683655358,
+  "per_class": {
+    "person": 0.279588775245009,
+    "bicycle": 0.2207945993284186,
+    "car": 0.405192602889162,
+    "van": 0.23694344300751088,
+    "truck": 0.2236160090758946,
+    "tricycle": 0.22540448937687074,
+    "bus": 0.2631458815747267,
+    "motor": 0.13884255706815193
+  }
+}

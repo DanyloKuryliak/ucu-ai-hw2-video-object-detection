@@ -1,0 +1,67 @@
+{
+  "source": "COCO evaluation outputs in notebooks/ucu-ai-hw2-video-object-detection.ipynb (Parts 3-5)",
+  "validation": "all 2,846 frames from 7 held-out clips, original COCO annotations with ignored regions (iscrowd)",
+  "training_sample": "4,868 frames: every 5th frame of each of the 56 training clips; Colab T4; image size 640 for the Ultralytics models",
+  "models": {
+    "Faster R-CNN ResNet-50 FPN": {
+      "family": "two-stage, anchor-based",
+      "mAP": 0.1238,
+      "AP50": 0.2654,
+      "AP_small": 0.056,
+      "note": "stopped by hand at step 3,755"
+    },
+    "RetinaNet ResNet-50 FPN v2": {
+      "family": "one-stage, anchor-based",
+      "mAP": 0.1026,
+      "AP50": 0.1948,
+      "AP_small": 0.0413,
+      "note": "best checkpoint at step 1,000; stopped at step 3,000"
+    },
+    "YOLO26n": {
+      "family": "one-stage, anchor-free",
+      "mAP": 0.1291,
+      "AP50": 0.2506,
+      "AP_small": 0.0406,
+      "note": "best epoch 4; 22.4 min"
+    },
+    "RT-DETR-L": {
+      "family": "query-based",
+      "mAP": 0.2244,
+      "AP50": 0.4246,
+      "AP_small": 0.0856,
+      "note": "best epoch 2; 40.4 min; 55.5 ms/frame in the full-validation loop (batch 4)"
+    }
+  },
+  "caveats": [
+    "Training budgets differ between models, so this is not an equal-budget benchmark.",
+    "No shared inference-speed benchmark exists yet; the pilot timings (Faster R-CNN 199 ms, YOLO26n 3.5 ms per frame) used different code paths.",
+    "Ignored regions were dropped from the training labels, not masked."
+  ],
+  "rescored_on_mac": {
+    "note": "same checkpoints, re-scored by scripts/05_evaluate.py: score threshold 0.001, up to 500 detections per frame, batch 1 on Apple GPU (MPS). The comparison uses these numbers; Faster R-CNN is higher than in the notebook only because the notebook kept fewer low-confidence boxes.",
+    "Faster R-CNN ResNet-50 FPN": {
+      "AP": 0.1402,
+      "AP50": 0.3138,
+      "AP_small": 0.0608,
+      "ms_per_frame": 130.42
+    },
+    "RetinaNet ResNet-50 FPN v2": {
+      "AP": 0.1026,
+      "AP50": 0.1948,
+      "AP_small": 0.0413,
+      "ms_per_frame": 110.05
+    },
+    "YOLO26n": {
+      "AP": 0.1306,
+      "AP50": 0.2542,
+      "AP_small": 0.041,
+      "ms_per_frame": 10.68
+    },
+    "RT-DETR-L": {
+      "AP": 0.2248,
+      "AP50": 0.4257,
+      "AP_small": 0.0857,
+      "ms_per_frame": 37.87
+    }
+  }
+}

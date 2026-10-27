@@ -1,0 +1,19 @@
+{
+  "model": "rtdetr-l.pt",
+  "train_arguments": {
+    "data": "data/yolo/stride5/data.yaml",
+    "imgsz": "640",
+    "epochs": "6",
+    "batch": "4",
+    "patience": "6",
+    "workers": "2",
+    "seed": "42",
+    "device": "mps",
+    "project": "runs",
+    "name": "rtdetr-l-e6",
+    "exist_ok": "True",
+    "plots": "False",
+    "verbose": "False",
+    "warmup_epochs": "1"
+  }
+}

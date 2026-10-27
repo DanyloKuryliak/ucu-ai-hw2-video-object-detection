@@ -1,0 +1,6 @@
+{
+  "best_val_AP": 0.16453293271198874,
+  "steps": 1341,
+  "minutes": 15.49,
+  "best_checkpoint": "runs/retina-giou/best.pt"
+}

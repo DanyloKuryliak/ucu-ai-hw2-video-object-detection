@@ -1,0 +1,645 @@
+{
+  "summary": {
+    "train": {
+      "frames": 24201,
+      "clips": 56,
+      "objects": 1105516,
+      "ignored_regions": 510744,
+      "frames_without_objects": 3,
+      "class_counts": {
+        "person": 328701,
+        "bicycle": 40255,
+        "car": 505301,
+        "van": 46940,
+        "truck": 30498,
+        "tricycle": 41349,
+        "bus": 9653,
+        "motor": 102819
+      },
+      "size_bucket_share": {
+        "large": 0.116,
+        "medium": 0.635,
+        "small": 0.249
+      },
+      "sqrt_area_px": {
+        "p5": 19.7,
+        "p25": 32.0,
+        "p50": 45.8,
+        "p75": 67.9,
+        "p95": 130.2
+      },
+      "sqrt_area_px_by_class": {
+        "person": {
+          "p5": 16.6,
+          "p25": 26.8,
+          "p50": 35.8,
+          "p75": 47.9,
+          "p95": 67.8
+        },
+        "bicycle": {
+          "p5": 20.1,
+          "p25": 32.3,
+          "p50": 41.4,
+          "p75": 52.8,
+          "p95": 82.3
+        },
+        "car": {
+          "p5": 23.2,
+          "p25": 37.9,
+          "p50": 57.0,
+          "p75": 86.0,
+          "p95": 147.7
+        },
+        "van": {
+          "p5": 24.1,
+          "p25": 33.0,
+          "p50": 49.8,
+          "p75": 78.4,
+          "p95": 156.1
+        },
+        "truck": {
+          "p5": 28.7,
+          "p25": 44.9,
+          "p50": 73.5,
+          "p75": 110.3,
+          "p95": 213.4
+        },
+        "tricycle": {
+          "p5": 21.4,
+          "p25": 35.9,
+          "p50": 54.9,
+          "p75": 78.5,
+          "p95": 133.8
+        },
+        "bus": {
+          "p5": 32.4,
+          "p25": 63.5,
+          "p50": 113.4,
+          "p75": 187.3,
+          "p95": 287.1
+        },
+        "motor": {
+          "p5": 16.4,
+          "p25": 29.4,
+          "p50": 40.2,
+          "p75": 53.3,
+          "p95": 77.9
+        }
+      },
+      "objects_per_frame": {
+        "p5": 6.0,
+        "p25": 22.0,
+        "p50": 43.0,
+        "p75": 57.0,
+        "p95": 118.0,
+        "mean": 45.7,
+        "max": 180
+      },
+      "ignored_per_frame_mean": 21.1,
+      "image_sizes": {
+        "1904x1071": 12895,
+        "1344x756": 5645,
+        "2688x1512": 3505,
+        "1360x765": 962,
+        "1920x1080": 721,
+        "2720x1530": 473
+      },
+      "per_clip": {
+        "uav0000013_00000_v": {
+          "frames": 269,
+          "objects": 7787,
+          "ignored": 6616,
+          "objects_per_frame": 28.9
+        },
+        "uav0000013_01073_v": {
+          "frames": 58,
+          "objects": 1029,
+          "ignored": 736,
+          "objects_per_frame": 17.7
+        },
+        "uav0000013_01392_v": {
+          "frames": 118,
+          "objects": 2810,
+          "ignored": 1272,
+          "objects_per_frame": 23.8
+        },
+        "uav0000020_00406_v": {
+          "frames": 501,
+          "objects": 9359,
+          "ignored": 6584,
+          "objects_per_frame": 18.7
+        },
+        "uav0000071_03240_v": {
+          "frames": 181,
+          "objects": 5422,
+          "ignored": 5024,
+          "objects_per_frame": 30.0
+        },
+        "uav0000072_04488_v": {
+          "frames": 85,
+          "objects": 9382,
+          "ignored": 0,
+          "objects_per_frame": 110.4
+        },
+        "uav0000072_05448_v": {
+          "frames": 217,
+          "objects": 10348,
+          "ignored": 1136,
+          "objects_per_frame": 47.7
+        },
+        "uav0000072_06432_v": {
+          "frames": 97,
+          "objects": 8725,
+          "ignored": 2560,
+          "objects_per_frame": 89.9
+        },
+        "uav0000076_00720_v": {
+          "frames": 361,
+          "objects": 7114,
+          "ignored": 0,
+          "objects_per_frame": 19.7
+        },
+        "uav0000079_00480_v": {
+          "frames": 361,
+          "objects": 12347,
+          "ignored": 2680,
+          "objects_per_frame": 34.2
+        },
+        "uav0000084_00000_v": {
+          "frames": 516,
+          "objects": 27907,
+          "ignored": 18240,
+          "objects_per_frame": 54.1
+        },
+        "uav0000099_02109_v": {
+          "frames": 1255,
+          "objects": 8955,
+          "ignored": 10448,
+          "objects_per_frame": 7.1
+        },
+        "uav0000124_00944_v": {
+          "frames": 398,
+          "objects": 49578,
+          "ignored": 5776,
+          "objects_per_frame": 124.6
+        },
+        "uav0000126_00001_v": {
+          "frames": 412,
+          "objects": 54474,
+          "ignored": 53992,
+          "objects_per_frame": 132.2
+        },
+        "uav0000138_00000_v": {
+          "frames": 213,
+          "objects": 30451,
+          "ignored": 13696,
+          "objects_per_frame": 143.0
+        },
+        "uav0000140_01590_v": {
+          "frames": 256,
+          "objects": 13983,
+          "ignored": 13744,
+          "objects_per_frame": 54.6
+        },
+        "uav0000143_02250_v": {
+          "frames": 261,
+          "objects": 16436,
+          "ignored": 12040,
+          "objects_per_frame": 63.0
+        },
+        "uav0000145_00000_v": {
+          "frames": 307,
+          "objects": 3450,
+          "ignored": 0,
+          "objects_per_frame": 11.2
+        },
+        "uav0000150_02310_v": {
+          "frames": 348,
+          "objects": 37892,
+          "ignored": 5336,
+          "objects_per_frame": 108.9
+        },
+        "uav0000218_00001_v": {
+          "frames": 225,
+          "objects": 1158,
+          "ignored": 1760,
+          "objects_per_frame": 5.1
+        },
+        "uav0000222_03150_v": {
+          "frames": 421,
+          "objects": 19119,
+          "ignored": 0,
+          "objects_per_frame": 45.4
+        },
+        "uav0000239_03720_v": {
+          "frames": 680,
+          "objects": 15653,
+          "ignored": 2592,
+          "objects_per_frame": 23.0
+        },
+        "uav0000239_12336_v": {
+          "frames": 341,
+          "objects": 11342,
+          "ignored": 6464,
+          "objects_per_frame": 33.3
+        },
+        "uav0000243_00001_v": {
+          "frames": 768,
+          "objects": 17620,
+          "ignored": 14008,
+          "objects_per_frame": 22.9
+        },
+        "uav0000244_01440_v": {
+          "frames": 721,
+          "objects": 40928,
+          "ignored": 33040,
+          "objects_per_frame": 56.8
+        },
+        "uav0000248_00001_v": {
+          "frames": 677,
+          "objects": 32154,
+          "ignored": 5392,
+          "objects_per_frame": 47.5
+        },
+        "uav0000263_03289_v": {
+          "frames": 725,
+          "objects": 4686,
+          "ignored": 7312,
+          "objects_per_frame": 6.5
+        },
+        "uav0000264_02760_v": {
+          "frames": 616,
+          "objects": 11749,
+          "ignored": 5336,
+          "objects_per_frame": 19.1
+        },
+        "uav0000266_03598_v": {
+          "frames": 548,
+          "objects": 3548,
+          "ignored": 7056,
+          "objects_per_frame": 6.5
+        },
+        "uav0000266_04830_v": {
+          "frames": 116,
+          "objects": 706,
+          "ignored": 1048,
+          "objects_per_frame": 6.1
+        },
+        "uav0000270_00001_v": {
+          "frames": 680,
+          "objects": 36781,
+          "ignored": 9096,
+          "objects_per_frame": 54.1
+        },
+        "uav0000273_00001_v": {
+          "frames": 872,
+          "objects": 25523,
+          "ignored": 6352,
+          "objects_per_frame": 29.3
+        },
+        "uav0000278_00001_v": {
+          "frames": 962,
+          "objects": 52919,
+          "ignored": 35784,
+          "objects_per_frame": 55.0
+        },
+        "uav0000279_00001_v": {
+          "frames": 547,
+          "objects": 52155,
+          "ignored": 12912,
+          "objects_per_frame": 95.3
+        },
+        "uav0000281_00460_v": {
+          "frames": 508,
+          "objects": 20940,
+          "ignored": 5328,
+          "objects_per_frame": 41.2
+        },
+        "uav0000288_00001_v": {
+          "frames": 1424,
+          "objects": 64916,
+          "ignored": 14576,
+          "objects_per_frame": 45.6
+        },
+        "uav0000289_00001_v": {
+          "frames": 500,
+          "objects": 17745,
+          "ignored": 4344,
+          "objects_per_frame": 35.5
+        },
+        "uav0000289_06922_v": {
+          "frames": 210,
+          "objects": 7899,
+          "ignored": 2200,
+          "objects_per_frame": 37.6
+        },
+        "uav0000295_02300_v": {
+          "frames": 346,
+          "objects": 28514,
+          "ignored": 16136,
+          "objects_per_frame": 82.4
+        },
+        "uav0000300_00000_v": {
+          "frames": 556,
+          "objects": 20972,
+          "ignored": 19616,
+          "objects_per_frame": 37.7
+        },
+        "uav0000307_00000_v": {
+          "frames": 414,
+          "objects": 7357,
+          "ignored": 3312,
+          "objects_per_frame": 17.8
+        },
+        "uav0000308_00000_v": {
+          "frames": 230,
+          "objects": 11302,
+          "ignored": 0,
+          "objects_per_frame": 49.1
+        },
+        "uav0000308_01380_v": {
+          "frames": 185,
+          "objects": 6985,
+          "ignored": 1280,
+          "objects_per_frame": 37.8
+        },
+        "uav0000309_00000_v": {
+          "frames": 403,
+          "objects": 17091,
+          "ignored": 896,
+          "objects_per_frame": 42.4
+        },
+        "uav0000315_00000_v": {
+          "frames": 632,
+          "objects": 26107,
+          "ignored": 9232,
+          "objects_per_frame": 41.3
+        },
+        "uav0000316_01288_v": {
+          "frames": 127,
+          "objects": 4146,
+          "ignored": 1016,
+          "objects_per_frame": 32.6
+        },
+        "uav0000323_01173_v": {
+          "frames": 426,
+          "objects": 19865,
+          "ignored": 19968,
+          "objects_per_frame": 46.6
+        },
+        "uav0000326_01035_v": {
+          "frames": 369,
+          "objects": 22636,
+          "ignored": 0,
+          "objects_per_frame": 61.3
+        },
+        "uav0000329_04715_v": {
+          "frames": 196,
+          "objects": 10914,
+          "ignored": 1568,
+          "objects_per_frame": 55.7
+        },
+        "uav0000342_04692_v": {
+          "frames": 277,
+          "objects": 12005,
+          "ignored": 8608,
+          "objects_per_frame": 43.3
+        },
+        "uav0000352_05980_v": {
+          "frames": 196,
+          "objects": 11314,
+          "ignored": 6216,
+          "objects_per_frame": 57.7
+        },
+        "uav0000357_00920_v": {
+          "frames": 691,
+          "objects": 63497,
+          "ignored": 25832,
+          "objects_per_frame": 91.9
+        },
+        "uav0000360_00001_v": {
+          "frames": 421,
+          "objects": 25714,
+          "ignored": 13112,
+          "objects_per_frame": 61.1
+        },
+        "uav0000361_02323_v": {
+          "frames": 219,
+          "objects": 18791,
+          "ignored": 10512,
+          "objects_per_frame": 85.8
+        },
+        "uav0000363_00001_v": {
+          "frames": 462,
+          "objects": 20415,
+          "ignored": 18136,
+          "objects_per_frame": 44.2
+        },
+        "uav0000366_00001_v": {
+          "frames": 296,
+          "objects": 22901,
+          "ignored": 20824,
+          "objects_per_frame": 77.4
+        }
+      }
+    },
+    "val": {
+      "frames": 2846,
+      "clips": 7,
+      "objects": 114132,
+      "ignored_regions": 31960,
+      "frames_without_objects": 0,
+      "class_counts": {
+        "person": 50312,
+        "bicycle": 6022,
+        "car": 31821,
+        "van": 6842,
+        "truck": 1359,
+        "tricycle": 5487,
+        "bus": 264,
+        "motor": 12025
+      },
+      "size_bucket_share": {
+        "large": 0.113,
+        "medium": 0.695,
+        "small": 0.192
+      },
+      "sqrt_area_px": {
+        "p5": 22.6,
+        "p25": 35.5,
+        "p50": 52.4,
+        "p75": 73.2,
+        "p95": 130.7
+      },
+      "sqrt_area_px_by_class": {
+        "person": {
+          "p5": 21.8,
+          "p25": 32.2,
+          "p50": 47.3,
+          "p75": 63.6,
+          "p95": 90.1
+        },
+        "bicycle": {
+          "p5": 35.9,
+          "p25": 56.5,
+          "p50": 66.7,
+          "p75": 81.6,
+          "p95": 111.2
+        },
+        "car": {
+          "p5": 26.0,
+          "p25": 42.8,
+          "p50": 63.6,
+          "p75": 89.3,
+          "p95": 202.6
+        },
+        "van": {
+          "p5": 31.2,
+          "p25": 43.2,
+          "p50": 61.4,
+          "p75": 91.2,
+          "p95": 251.6
+        },
+        "truck": {
+          "p5": 35.5,
+          "p25": 70.8,
+          "p50": 94.7,
+          "p75": 140.4,
+          "p95": 278.9
+        },
+        "tricycle": {
+          "p5": 25.0,
+          "p25": 35.9,
+          "p50": 49.9,
+          "p75": 79.8,
+          "p95": 124.9
+        },
+        "bus": {
+          "p5": 75.0,
+          "p25": 84.7,
+          "p50": 93.4,
+          "p75": 120.6,
+          "p95": 189.9
+        },
+        "motor": {
+          "p5": 18.5,
+          "p25": 26.5,
+          "p50": 35.7,
+          "p75": 47.0,
+          "p95": 92.3
+        }
+      },
+      "objects_per_frame": {
+        "p5": 10.0,
+        "p25": 16.0,
+        "p50": 37.0,
+        "p75": 51.8,
+        "p95": 103.0,
+        "mean": 40.1,
+        "max": 116
+      },
+      "ignored_per_frame_mean": 11.2,
+      "image_sizes": {
+        "3840x2160": 978,
+        "1344x756": 827,
+        "1904x1071": 459,
+        "2720x1530": 349,
+        "2688x1512": 233
+      },
+      "per_clip": {
+        "uav0000086_00000_v": {
+          "frames": 464,
+          "objects": 23097,
+          "ignored": 6240,
+          "objects_per_frame": 49.8
+        },
+        "uav0000117_02622_v": {
+          "frames": 349,
+          "objects": 17279,
+          "ignored": 9472,
+          "objects_per_frame": 49.5
+        },
+        "uav0000137_00458_v": {
+          "frames": 233,
+          "objects": 24088,
+          "ignored": 2184,
+          "objects_per_frame": 103.4
+        },
+        "uav0000182_00000_v": {
+          "frames": 363,
+          "objects": 17671,
+          "ignored": 6160,
+          "objects_per_frame": 48.7
+        },
+        "uav0000268_05773_v": {
+          "frames": 978,
+          "objects": 13578,
+          "ignored": 0,
+          "objects_per_frame": 13.9
+        },
+        "uav0000305_00000_v": {
+          "frames": 184,
+          "objects": 6391,
+          "ignored": 0,
+          "objects_per_frame": 34.7
+        },
+        "uav0000339_00001_v": {
+          "frames": 275,
+          "objects": 12028,
+          "ignored": 7904,
+          "objects_per_frame": 43.7
+        }
+      }
+    },
+    "test": {
+      "frames": 3811,
+      "clips": 48,
+      "image_sizes": {
+        "1360x764": 1474,
+        "1920x1080": 991,
+        "1344x756": 441,
+        "680x382": 321,
+        "1904x1072": 305,
+        "960x540": 279
+      }
+    }
+  },
+  "track_persistence": {
+    "train": {
+      "stride_1": {
+        "object_still_present": 0.993,
+        "median_shift_in_box_sizes": 0.044
+      },
+      "stride_5": {
+        "object_still_present": 0.966,
+        "median_shift_in_box_sizes": 0.209
+      },
+      "stride_10": {
+        "object_still_present": 0.933,
+        "median_shift_in_box_sizes": 0.416
+      },
+      "stride_20": {
+        "object_still_present": 0.87,
+        "median_shift_in_box_sizes": 0.807
+      }
+    },
+    "val": {
+      "stride_1": {
+        "object_still_present": 0.993,
+        "median_shift_in_box_sizes": 0.054
+      },
+      "stride_5": {
+        "object_still_present": 0.964,
+        "median_shift_in_box_sizes": 0.255
+      },
+      "stride_10": {
+        "object_still_present": 0.93,
+        "median_shift_in_box_sizes": 0.503
+      },
+      "stride_20": {
+        "object_still_present": 0.866,
+        "median_shift_in_box_sizes": 0.97
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "ens-rtdetr2",
+  "family": "ensemble",
+  "checkpoint": "rtdetr-l-e6_predictions + nb-rtdetr_predictions",
+  "device": "mps",
+  "frames": 2846,
+  "detections": 987880,
+  "ms_per_frame": 75.84,
+  "settings": {
+    "iou": 0.55
+  },
+  "AP": 0.24095360817651623,
+  "AP50": 0.46629734551552215,
+  "AP75": 0.21612969239867805,
+  "AP_small": 0.10490437357944896,
+  "AP_medium": 0.20437116075413564,
+  "AP_large": 0.4244216284559906,
+  "per_class": {
+    "person": 0.27164891453489326,
+    "bicycle": 0.2063237239984762,
+    "car": 0.40230419091107167,
+    "van": 0.24330431338854006,
+    "truck": 0.20038662660491335,
+    "tricycle": 0.20882331327948558,
+    "bus": 0.258801784555308,
+    "motor": 0.13603599813944184
+  }
+}

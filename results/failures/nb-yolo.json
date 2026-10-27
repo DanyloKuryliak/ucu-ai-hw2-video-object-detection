@@ -1,0 +1,111 @@
+{
+  "settings": {
+    "score_thr": 0.3,
+    "iou": 0.5,
+    "frames": 2846
+  },
+  "recall_by_size": {
+    "small": 0.207,
+    "medium": 0.382,
+    "large": 0.626
+  },
+  "recall_by_class": {
+    "person": 0.456,
+    "motor": 0.165,
+    "bicycle": 0.0,
+    "car": 0.513,
+    "tricycle": 0.136,
+    "van": 0.079,
+    "truck": 0.229,
+    "bus": 0.25
+  },
+  "false_positives_by_class": {
+    "person": 11838,
+    "bicycle": 18,
+    "van": 397,
+    "car": 4362,
+    "motor": 1055,
+    "tricycle": 212,
+    "truck": 185,
+    "bus": 106
+  },
+  "top_class_confusions": [
+    {
+      "truth": "van",
+      "predicted": "car",
+      "count": 2533
+    },
+    {
+      "truth": "bicycle",
+      "predicted": "motor",
+      "count": 1293
+    },
+    {
+      "truth": "bicycle",
+      "predicted": "person",
+      "count": 1192
+    },
+    {
+      "truth": "motor",
+      "predicted": "person",
+      "count": 857
+    },
+    {
+      "truth": "person",
+      "predicted": "motor",
+      "count": 567
+    },
+    {
+      "truth": "tricycle",
+      "predicted": "car",
+      "count": 516
+    },
+    {
+      "truth": "car",
+      "predicted": "van",
+      "count": 226
+    },
+    {
+      "truth": "van",
+      "predicted": "bus",
+      "count": 205
+    }
+  ],
+  "clips": {
+    "uav0000086_00000_v": {
+      "frames": 464,
+      "recall": 0.579,
+      "false_positives_per_frame": 14.5
+    },
+    "uav0000117_02622_v": {
+      "frames": 349,
+      "recall": 0.316,
+      "false_positives_per_frame": 5.3
+    },
+    "uav0000137_00458_v": {
+      "frames": 233,
+      "recall": 0.434,
+      "false_positives_per_frame": 12.6
+    },
+    "uav0000182_00000_v": {
+      "frames": 363,
+      "recall": 0.252,
+      "false_positives_per_frame": 8.7
+    },
+    "uav0000268_05773_v": {
+      "frames": 978,
+      "recall": 0.124,
+      "false_positives_per_frame": 0.6
+    },
+    "uav0000305_00000_v": {
+      "frames": 184,
+      "recall": 0.505,
+      "false_positives_per_frame": 6.1
+    },
+    "uav0000339_00001_v": {
+      "frames": 275,
+      "recall": 0.353,
+      "false_positives_per_frame": 6.6
+    }
+  }
+}

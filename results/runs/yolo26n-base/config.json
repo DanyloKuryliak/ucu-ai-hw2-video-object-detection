@@ -1,0 +1,19 @@
+{
+  "model": "yolo26n.pt",
+  "train_arguments": {
+    "data": "data/yolo/stride5/data.yaml",
+    "imgsz": "640",
+    "epochs": "30",
+    "batch": "16",
+    "patience": "8",
+    "workers": "2",
+    "seed": "42",
+    "device": "mps",
+    "project": "runs",
+    "name": "yolo26n-base",
+    "exist_ok": "True",
+    "plots": "False",
+    "verbose": "False",
+    "time": "0.25"
+  }
+}

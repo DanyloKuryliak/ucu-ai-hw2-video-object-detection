@@ -1,0 +1,19 @@
+# data and weights stay out of git (Kaggle terms, size)
+data/
+/runs/
+weights/
+*.pt
+*.pth
+submissions/*.csv
+# environments and caches
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+# credentials and local tooling
+.kaggle/
+AGENTS.md
+code_memory.db*
+# written by the stages, not part of the deliverable
+results/prepared/
+images/eda_preview_*

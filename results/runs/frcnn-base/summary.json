@@ -1,0 +1,6 @@
+{
+  "best_val_AP": 0.1740929792901232,
+  "steps": 1055,
+  "minutes": 15.6,
+  "best_checkpoint": "runs/frcnn-base/best.pt"
+}

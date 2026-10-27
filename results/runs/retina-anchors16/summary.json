@@ -1,0 +1,6 @@
+{
+  "best_val_AP": 0.15408204787450122,
+  "steps": 1358,
+  "minutes": 15.51,
+  "best_checkpoint": "runs/retina-anchors16/best.pt"
+}
